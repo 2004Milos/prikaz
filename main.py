@@ -24,7 +24,6 @@ def root(request):
     return return_value
 
 
-@app.route('/showFurniture')
+@app.route('/')
 def serve_index():
-    print("done")
     return send_from_directory('static', 'index.html')
