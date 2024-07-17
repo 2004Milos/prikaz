@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>View 3D Model in AR</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
   <h1>View 3D Model in AR</h1>
+
+    <model-viewer alt="Simple bed to rest your soul" 
+    src="https://storage.googleapis.com/sklopp/bed.glb" 
+    ar  
+    shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
   <scene-viewer>
     <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://storage.googleapis.com/sklopp/bed.glb#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
         Bed
