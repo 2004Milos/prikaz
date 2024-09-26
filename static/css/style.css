@@ -1,0 +1,35 @@
+body,html {
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin:0;
+    font-size: 20px;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+#prikazImage {
+    margin-top: 20px;
+    width: 70%;
+    max-width: 600px
+}
+
+#arButton {
+    margin-top: 20px;
+    padding: 15px 50px;
+    color: black; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    border: 3px solid lightgray;
+    cursor: pointer; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 20px;
+}
+
+#arButton:hover {
+    background-color: lightgray; 
+}

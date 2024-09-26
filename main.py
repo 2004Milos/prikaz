@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, send_from_directory
-import time
 import functions_framework
 
 app = Flask(__name__, static_url_path='')
